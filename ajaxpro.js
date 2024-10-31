@@ -106,7 +106,7 @@
 
             if (!moviesCache[title]) {
                 try {
-                    const omdbResponse = await fetch(`http://www.omdbapi.com/?t=${title}&apikey=${omdbAPIKey}`);
+                    const omdbResponse = await fetch(`https://www.omdbapi.com/?t=${title}&apikey=${omdbAPIKey}`);
                     const movieData = await omdbResponse.json();
 
                     // only add the movie if it has a valid title in omdb
