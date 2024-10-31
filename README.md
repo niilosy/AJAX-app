@@ -7,11 +7,17 @@ Access my site at [google.com](https://luminous-caramel-7cf029.netlify.app/)
 I made this prjocet for my javascript course and it involves learning about AJAX and Api
 
 Table of Content:
+
 About The App
+
 Screenshots
+
 Technologies
+
 Setup
+
 Credits
+
 
 About The App
 Ajax app is a page where you can see movies, showtimes and my ratings of them.
