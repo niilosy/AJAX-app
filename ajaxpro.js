@@ -62,7 +62,7 @@
             const formattedTime = `${date.getHours().toString().padStart(2, '0')}.${date.getMinutes().toString().padStart(2, '0')}`;
             const showtime = document.createElement("p");
             showtime.className = "showtime";
-            if (theaterName !== "Pääkaupunkiseutu") {
+            if (theaterName !== "Pääkaupunkiseutu" && theaterName !== "Valitse alue/teatteri") {
                 showtime.innerText = `Showtimes today at ${theaterName} (${formattedDate}): ${formattedTime}`;
             } else {
                 showtime.innerText = `Showtimes today (${formattedDate}): ${formattedTime}`;
